@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Confirm Node.js version
+        run: node --version
+
       - name: Install dependencies
         run: npm install
 
