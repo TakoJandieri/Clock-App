@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/clock-app/static/css/main.22b0fb79.css",
-    "main.js": "/clock-app/static/js/main.2dfb38fa.js",
+    "main.css": "/clock-app/static/css/main.76f089a1.css",
+    "main.js": "/clock-app/static/js/main.52ad3ca0.js",
     "static/media/bg-image-nighttime.jpg": "/clock-app/static/media/bg-image-nighttime.2bf322573178f8d3d588.jpg",
     "static/media/bg-image-daytime.jpg": "/clock-app/static/media/bg-image-daytime.2057675aad8d4e0bd146.jpg",
-    "static/media/arrow-down-filled-circle-icon-120.png": "/clock-app/static/media/arrow-down-filled-circle-icon-120.9bbfd1ac636643bc1468.png",
     "static/media/icon-sun.svg": "/clock-app/static/media/icon-sun.cb7a2aac3be7bf88b4cf17bd97d62fd2.svg",
+    "static/media/icon-arrow-up.svg": "/clock-app/static/media/icon-arrow-up.bb3e6773ea6ece2fc345775ffd9b0d0c.svg",
     "index.html": "/clock-app/index.html",
     "static/media/icon-refresh.svg": "/clock-app/static/media/icon-refresh.dd4042c8a2d8493ec9ddb2b52692ad11.svg",
     "static/media/icon-moon.svg": "/clock-app/static/media/icon-moon.83b9f0dbe53bfaab2e1c6dc344545e9c.svg",
-    "static/media/icon-arrow-up.svg": "/clock-app/static/media/icon-arrow-up.9f27dbc98aef9217ffedf9388f4088d5.svg",
-    "main.22b0fb79.css.map": "/clock-app/static/css/main.22b0fb79.css.map",
-    "main.2dfb38fa.js.map": "/clock-app/static/js/main.2dfb38fa.js.map"
+    "main.76f089a1.css.map": "/clock-app/static/css/main.76f089a1.css.map",
+    "main.52ad3ca0.js.map": "/clock-app/static/js/main.52ad3ca0.js.map"
   },
   "entrypoints": [
-    "static/css/main.22b0fb79.css",
-    "static/js/main.2dfb38fa.js"
+    "static/css/main.76f089a1.css",
+    "static/js/main.52ad3ca0.js"
   ]
 }
