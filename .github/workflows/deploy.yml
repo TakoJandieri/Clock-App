@@ -12,18 +12,12 @@ jobs:
 
     steps:
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: 20
-
-      - name: Install Node.js 20 (Workaround for actions/checkout)
-        run: |
-          sudo apt-get install curl
-          curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-          sudo apt-get install -y nodejs
+          node-version: "20"
 
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Install dependencies
         run: npm install
