@@ -3,7 +3,6 @@ import MoreOrLess from "./MoreOrLess";
 import { Dispatch, SetStateAction } from "react";
 import "./LocationNtime.css";
 import useWindowDimensions from "../GetWindowDimensions";
-import arrowDown from "../assets/desktop/arrow-down-filled-circle-icon-120.png";
 import arrowUp from "../assets/desktop/icon-arrow-up.svg";
 import "./MoreOrLess.css";
 
@@ -107,7 +106,7 @@ function LocationNTime({
   const arrow = isClicked ? (
     <img className="arrowUpImg" alt="arrowUp" src={arrowUp} />
   ) : (
-    <img className="arrowDownImg" alt="arrowDown" src={arrowDown} />
+    <img className="arrowDownImg" alt="arrowDown" src={arrowUp} />
   );
 
   return (

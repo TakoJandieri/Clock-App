@@ -4,6 +4,8 @@
 }
 
 .arrowDownImg {
+  margin-right: 8px;
+  rotate: calc(180deg);
   width: 32px;
   filter: invert(0%) sepia(2%) saturate(100%) hue-rotate(7deg) brightness(0%)
     contrast(103%);
@@ -25,9 +27,7 @@
 
 .dropContainer {
   flex-direction: column;
-
   width: calc(100% + 51px);
-
   color: aliceblue;
   margin-top: 40px;
   margin-bottom: -40px;
